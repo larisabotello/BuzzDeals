@@ -16,7 +16,6 @@
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
 		E210B9E220FE996600ED7160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E210B9E120FE996600ED7160 /* GoogleService-Info.plist */; };
-		E22422A120FD3E480050F249 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22422A020FD3E480050F249 /* Testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E208969620FE910A0039D241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E210B9E120FE996600ED7160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E22422A020FD3E480050F249 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 		F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 				80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */,
 				80CF67A820FD2D2F00FDEF81 /* Main.storyboard */,
 				E208969420FE8FE20039D241 /* Login.storyboard */,
-				E22422A020FD3E480050F249 /* Testing.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E208969720FE910A0039D241 /* LoginViewController.swift in Sources */,
-				E22422A120FD3E480050F249 /* Testing.swift in Sources */,
 				80CF67A720FD2D2F00FDEF81 /* ViewController.swift in Sources */,
 				80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */,
 			);
