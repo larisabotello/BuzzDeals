@@ -14,7 +14,6 @@
 		80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67A820FD2D2F00FDEF81 /* Main.storyboard */; };
 		80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AB20FD2D3100FDEF81 /* Assets.xcassets */; };
 		80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */; };
-		E20424D120FEB34500F780D5 /* TestingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20424D020FEB34500F780D5 /* TestingFile.swift */; };
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		80CF67B020FD2D3100FDEF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8221C330E440E16D5E325528 /* Pods-BuzzDeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.debug.xcconfig"; sourceTree = "<group>"; };
 		87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E20424D020FEB34500F780D5 /* TestingFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFile.swift; sourceTree = "<group>"; };
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E208969620FE910A0039D241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				80CF67A620FD2D2F00FDEF81 /* ViewController.swift */,
 				E208969620FE910A0039D241 /* LoginViewController.swift */,
-				E20424D020FEB34500F780D5 /* TestingFile.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -281,7 +278,6 @@
 			files = (
 				E208969720FE910A0039D241 /* LoginViewController.swift in Sources */,
 				80CF67A720FD2D2F00FDEF81 /* ViewController.swift in Sources */,
-				E20424D120FEB34500F780D5 /* TestingFile.swift in Sources */,
 				80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
