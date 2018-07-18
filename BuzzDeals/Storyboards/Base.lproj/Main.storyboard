@@ -20,11 +20,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iLt-XH-Fpq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="icons8-search-50.png" id="03z-SL-4aL"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="icons8-search-50.png" landscapeImage="icons8-search-50.png" largeContentSizeImage="icons8-search-50.png" selectedImage="icons8-search-50.png" id="03z-SL-4aL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGy-Io-DGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="-308"/>
+            <point key="canvasLocation" x="-671" y="-310"/>
         </scene>
         <!--My Settings-->
         <scene sceneID="urw-Zd-ukg">
@@ -36,27 +36,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gJc-JW-Had"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Settings" image="tab_profile_black.png" id="Gxh-ox-q00"/>
+                    <tabBarItem key="tabBarItem" title="My Settings" image="tab_profile_black.png" landscapeImage="tab_profile_black.png" largeContentSizeImage="tab_profile_black.png" selectedImage="tab_profile_black.png" id="Gxh-ox-q00"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0PJ-ES-3q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="400"/>
-        </scene>
-        <!--HomeTab-->
-        <scene sceneID="pXS-FR-9cw">
-            <objects>
-                <viewController id="Skz-NS-feO" userLabel="HomeTab" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wjn-l9-COq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="CBS-6I-dyt"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Deals" image="tab_home_black.png" id="jun-N3-LLl"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HKJ-JD-rPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-170" y="-990"/>
+            <point key="canvasLocation" x="-670" y="-1010"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="T7V-Ka-6un">
@@ -68,19 +52,28 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Skz-NS-feO" kind="relationship" relationship="viewControllers" id="hWW-i8-8o8"/>
+                        <segue destination="4rC-xU-lIk" kind="relationship" relationship="viewControllers" id="hWW-i8-8o8"/>
                         <segue destination="Myk-pb-F5D" kind="relationship" relationship="viewControllers" id="vkt-kM-laV"/>
                         <segue destination="IGW-Ii-yta" kind="relationship" relationship="viewControllers" id="669-fH-piG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KgS-Bv-jzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1596" y="-308"/>
+            <point key="canvasLocation" x="-1463" y="-825"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="NKq-e4-eu0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="4rC-xU-lIk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="YkG-q9-JhB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3IF-oM-UEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-882" y="-1379"/>
         </scene>
     </scenes>
     <resources>
         <image name="icons8-search-50.png" width="50" height="50"/>
-        <image name="tab_home_black.png" width="25" height="25"/>
         <image name="tab_profile_black.png" width="25" height="25"/>
     </resources>
 </document>

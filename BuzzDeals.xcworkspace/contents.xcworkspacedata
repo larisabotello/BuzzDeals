@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:tab_bar_images">
+   </FileRef>
+   <FileRef
       location = "group:BuzzDeals.xcodeproj">
    </FileRef>
    <FileRef

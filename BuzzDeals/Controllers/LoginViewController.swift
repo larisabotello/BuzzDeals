@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
 extension LoginViewController: FUIAuthDelegate {
     func authUI(_ authUI: FUIAuth, didSignInWith user: FirebaseAuth.User?, error: Error?) {
         print("Signed In")
-        //Larisa Added thi code to display home page...
+        //Larisa Added the code to display home page...
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         
         if let initialViewController = storyboard.instantiateInitialViewController() {

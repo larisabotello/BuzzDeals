@@ -15,6 +15,7 @@
 		80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */; };
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
+		E2141A2420FFEF6900A887B0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2141A2320FFEF6900A887B0 /* Home.storyboard */; };
 		E216648E20FF0FFC00A33CA2 /* btn_images in Resources */ = {isa = PBXBuildFile; fileRef = E216648C20FF0FFB00A33CA2 /* btn_images */; };
 		E216648F20FF0FFC00A33CA2 /* tab_bar_images in Resources */ = {isa = PBXBuildFile; fileRef = E216648D20FF0FFC00A33CA2 /* tab_bar_images */; };
 		E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* HomeViewController.swift */; };
@@ -34,8 +35,9 @@
 		87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E208969620FE910A0039D241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2141A2320FFEF6900A887B0 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		E216648C20FF0FFB00A33CA2 /* btn_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = btn_images; sourceTree = "<group>"; };
-		E216648D20FF0FFC00A33CA2 /* tab_bar_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tab_bar_images; sourceTree = "<group>"; };
+		E216648D20FF0FFC00A33CA2 /* tab_bar_images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tab_bar_images; path = "BuzzDeals/Supporting Files/tab_bar_images"; sourceTree = SOURCE_ROOT; };
 		E216649020FF133100A33CA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E216649220FF135D00A33CA2 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		E216649420FF137300A33CA2 /* MySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingsViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		80CF67BC20FD33D000FDEF81 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				E2141A2320FFEF6900A887B0 /* Home.storyboard */,
 				80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */,
 				80CF67A820FD2D2F00FDEF81 /* Main.storyboard */,
 				E208969420FE8FE20039D241 /* Login.storyboard */,
@@ -225,6 +228,7 @@
 				E208969520FE8FE20039D241 /* Login.storyboard in Resources */,
 				80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */,
 				80A92ED220FFAB8A007A515A /* GoogleService-Info.plist in Resources */,
+				E2141A2420FFEF6900A887B0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
