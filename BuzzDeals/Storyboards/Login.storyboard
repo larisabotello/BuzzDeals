@@ -6,10 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FivoSansModern-ExtBlack-Oblique.otf">
+            <string>FivoSansModern-ExtBlkObliq</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--LoginViewController-->
         <scene sceneID="gJW-bM-jqj">
@@ -20,25 +24,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZF-EB-mTf">
-                                <rect key="frame" x="0.0" y="20" width="375" height="300"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="448"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuzzDeals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7N-94-bcS">
-                                        <rect key="frame" x="77" y="124" width="220" height="52"/>
-                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
-                                        <color key="textColor" name="tcCharcoal"/>
+                                        <rect key="frame" x="26" y="86" width="322" height="57"/>
+                                        <fontDescription key="fontDescription" name="FivoSansModern-ExtBlkObliq" family="Fivo Sans Modern" pointSize="60"/>
+                                        <color key="textColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightning" translatesAutoresizingMaskIntoConstraints="NO" id="zWv-se-otd">
+                                        <rect key="frame" x="59" y="176" width="257" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.41568627450000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.082352941176470587" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="2fZ-qo-4Ra"/>
+                                    <constraint firstAttribute="height" constant="448" id="2fZ-qo-4Ra"/>
                                     <constraint firstItem="A7N-94-bcS" firstAttribute="centerX" secondItem="hZF-EB-mTf" secondAttribute="centerX" id="NEt-59-MyG"/>
-                                    <constraint firstItem="A7N-94-bcS" firstAttribute="centerY" secondItem="hZF-EB-mTf" secondAttribute="centerY" id="WD5-Ok-d7f"/>
+                                    <constraint firstItem="A7N-94-bcS" firstAttribute="centerY" secondItem="hZF-EB-mTf" secondAttribute="centerY" constant="-109.5" id="WD5-Ok-d7f"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBC-Eq-cDz">
-                                <rect key="frame" x="35" y="345" width="305" height="44"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="35" y="551" width="305" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Scj-Bf-jB9"/>
                                 </constraints>
@@ -54,11 +62,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="qqZ-er-xoc" firstAttribute="trailing" secondItem="hZF-EB-mTf" secondAttribute="trailing" id="0C6-t8-m3j"/>
-                            <constraint firstItem="qqZ-er-xoc" firstAttribute="trailing" secondItem="LBC-Eq-cDz" secondAttribute="trailing" constant="35" id="3Jr-9f-7Ta"/>
-                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="leading" secondItem="qqZ-er-xoc" secondAttribute="leading" constant="35" id="GEr-99-Oy5"/>
                             <constraint firstItem="hZF-EB-mTf" firstAttribute="leading" secondItem="qqZ-er-xoc" secondAttribute="leading" id="PF2-n8-R5Y"/>
-                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="top" secondItem="hZF-EB-mTf" secondAttribute="bottom" constant="25" id="cjZ-nu-Cdu"/>
+                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="leading" secondItem="qqZ-er-xoc" secondAttribute="leading" constant="35" id="ccU-qa-6e2"/>
                             <constraint firstItem="hZF-EB-mTf" firstAttribute="top" secondItem="qqZ-er-xoc" secondAttribute="top" id="iuC-re-Wod"/>
+                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="centerX" secondItem="hZF-EB-mTf" secondAttribute="centerX" id="jjo-gc-uyC"/>
+                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="top" secondItem="qGZ-QE-gj5" secondAttribute="bottom" constant="-116" id="pgq-0u-Arh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qqZ-er-xoc"/>
                     </view>
@@ -68,12 +76,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UhE-eI-2KT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-68" y="21"/>
+            <point key="canvasLocation" x="-68" y="20.239880059970016"/>
         </scene>
     </scenes>
     <resources>
-        <namedColor name="tcCharcoal">
-            <color red="0.28999999170000001" green="0.28999999170000001" blue="0.28999999170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="lightning" width="2000" height="2400"/>
     </resources>
 </document>

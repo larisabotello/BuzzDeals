@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		250C64DAE1DA7F5FAE0ED97A /* Pods_BuzzDeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */; };
 		80A92ED220FFAB8A007A515A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80A92ED120FFAB8A007A515A /* GoogleService-Info.plist */; };
+		80A92EDA21000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80A92ED921000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf */; };
 		80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF67A420FD2D2F00FDEF81 /* AppDelegate.swift */; };
 		80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67A820FD2D2F00FDEF81 /* Main.storyboard */; };
 		80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AB20FD2D3100FDEF81 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		80A92ED120FFAB8A007A515A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80A92ED921000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FivoSansModern-ExtBlack-Oblique.otf"; sourceTree = "<group>"; };
 		80CF67A120FD2D2F00FDEF81 /* BuzzDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF67A420FD2D2F00FDEF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CF67A920FD2D2F00FDEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80A92EDB21000A76007A515A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80A92ED921000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		80CF679820FD2D2F00FDEF81 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		80CF67BB20FD33CA00FDEF81 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80A92EDB21000A76007A515A /* Fonts */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */,
+				80A92EDA21000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf in Resources */,
 				80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */,
 				E208969520FE8FE20039D241 /* Login.storyboard in Resources */,
 				80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */,
