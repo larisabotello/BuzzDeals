@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		250C64DAE1DA7F5FAE0ED97A /* Pods_BuzzDeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */; };
-		80A92ED020FEB0F7007A515A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80A92ECF20FEB0F7007A515A /* GoogleService-Info.plist */; };
+		80A92ED220FFAB8A007A515A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80A92ED120FFAB8A007A515A /* GoogleService-Info.plist */; };
 		80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF67A420FD2D2F00FDEF81 /* AppDelegate.swift */; };
-		80CF67A720FD2D2F00FDEF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF67A620FD2D2F00FDEF81 /* ViewController.swift */; };
 		80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67A820FD2D2F00FDEF81 /* Main.storyboard */; };
 		80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AB20FD2D3100FDEF81 /* Assets.xcassets */; };
 		80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */; };
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
+		E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* HomeViewController.swift */; };
+		E216649320FF135D00A33CA2 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649220FF135D00A33CA2 /* SearchBarViewController.swift */; };
+		E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649420FF137300A33CA2 /* MySettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80A92ECF20FEB0F7007A515A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80A92ED120FFAB8A007A515A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80CF67A120FD2D2F00FDEF81 /* BuzzDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF67A420FD2D2F00FDEF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80CF67A620FD2D2F00FDEF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80CF67A920FD2D2F00FDEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80CF67AB20FD2D3100FDEF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CF67AE20FD2D3100FDEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +32,9 @@
 		87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E208969620FE910A0039D241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E216649020FF133100A33CA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E216649220FF135D00A33CA2 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		E216649420FF137300A33CA2 /* MySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingsViewController.swift; sourceTree = "<group>"; };
 		F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +53,7 @@
 		80CF679820FD2D2F00FDEF81 = {
 			isa = PBXGroup;
 			children = (
+				E20424D620FED1E000F780D5 /* Services */,
 				80CF67A320FD2D2F00FDEF81 /* BuzzDeals */,
 				80CF67A220FD2D2F00FDEF81 /* Products */,
 				DB69CA3C8193CA0A11708D74 /* Pods */,
@@ -81,7 +86,7 @@
 		80CF67B620FD333700FDEF81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				80A92ECF20FEB0F7007A515A /* GoogleService-Info.plist */,
+				80A92ED120FFAB8A007A515A /* GoogleService-Info.plist */,
 				80CF67B020FD2D3100FDEF81 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -97,8 +102,10 @@
 		80CF67BA20FD33C200FDEF81 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				80CF67A620FD2D2F00FDEF81 /* ViewController.swift */,
 				E208969620FE910A0039D241 /* LoginViewController.swift */,
+				E216649020FF133100A33CA2 /* HomeViewController.swift */,
+				E216649220FF135D00A33CA2 /* SearchBarViewController.swift */,
+				E216649420FF137300A33CA2 /* MySettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +142,13 @@
 				F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E20424D620FED1E000F780D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +214,9 @@
 			files = (
 				80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */,
 				80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */,
-				80A92ED020FEB0F7007A515A /* GoogleService-Info.plist in Resources */,
 				E208969520FE8FE20039D241 /* Login.storyboard in Resources */,
 				80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */,
+				80A92ED220FFAB8A007A515A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E208969720FE910A0039D241 /* LoginViewController.swift in Sources */,
-				80CF67A720FD2D2F00FDEF81 /* ViewController.swift in Sources */,
 				80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */,
+				E216649320FF135D00A33CA2 /* SearchBarViewController.swift in Sources */,
+				E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */,
+				E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
