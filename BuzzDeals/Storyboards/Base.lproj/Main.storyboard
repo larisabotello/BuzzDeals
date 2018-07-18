@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iLt-XH-Fpq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="icons8-search-50.png" id="03z-SL-4aL"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="search_icon" landscapeImage="search_icon" largeContentSizeImage="search_icon" selectedImage="search_icon" id="03z-SL-4aL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGy-Io-DGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gJc-JW-Had"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Settings" image="tab_profile_black.png" id="Gxh-ox-q00"/>
+                    <tabBarItem key="tabBarItem" title="My Settings" image="tab_profile_black" landscapeImage="tab_profile_black" largeContentSizeImage="tab_profile_black" selectedImage="tab_profile_black" id="Gxh-ox-q00"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0PJ-ES-3q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CBS-6I-dyt"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Deals" image="tab_home_black.png" id="jun-N3-LLl"/>
+                    <tabBarItem key="tabBarItem" title="Deals" image="tab_home_black" landscapeImage="tab_home_black" largeContentSizeImage="tab_home_black" selectedImage="tab_home_black" id="jun-N3-LLl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HKJ-JD-rPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,8 +79,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-search-50.png" width="50" height="50"/>
-        <image name="tab_home_black.png" width="25" height="25"/>
-        <image name="tab_profile_black.png" width="25" height="25"/>
+        <image name="search_icon" width="25" height="25"/>
+        <image name="tab_home_black" width="25" height="25"/>
+        <image name="tab_profile_black" width="25" height="25"/>
     </resources>
 </document>
