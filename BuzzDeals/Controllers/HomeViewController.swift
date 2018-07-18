@@ -9,6 +9,3 @@
 import Foundation
 
 
-class HomeViewController: UITabBarController {
-
-}
