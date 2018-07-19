@@ -10,7 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    //Mark: - Subviews
+    //Mark: - Properties
+    
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -20,5 +21,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
     }
 }
+
+
 
 
