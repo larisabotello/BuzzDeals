@@ -30,11 +30,41 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="374.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KfD-xP-Rv0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DLB-ni-y0t">
+                                                    <rect key="frame" x="30" y="11" width="25" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </view>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tab_home_black" translatesAutoresizingMaskIntoConstraints="NO" id="GV8-uI-uxw">
+                                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r8b-op-9jI">
+                                                    <rect key="frame" x="235" y="33" width="125" height="90"/>
+                                                    <subviews>
+                                                        <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name of Place" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aTd-ht-nKd">
+                                                            <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Deal" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nRW-PW-ks5">
+                                                            <rect key="frame" x="0.0" y="30" width="125" height="30"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Distance" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d5W-mP-fJx">
+                                                            <rect key="frame" x="0.0" y="60" width="125" height="30"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="125" id="mfF-PH-ZU4"/>
+                                                    </constraints>
+                                                </stackView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -54,14 +84,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CBS-6I-dyt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dMH-Nk-fs6"/>
+                    <navigationItem key="navigationItem" id="dMH-Nk-fs6">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Nn5-ww-6qh">
+                            <connections>
+                                <segue destination="koS-Bd-mKF" kind="unwind" identifier="cancel" unwindAction="unwindWithSegue:" id="cds-o1-BMh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="fP8-Gl-UgD" id="9UF-as-niJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HKJ-JD-rPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="koS-Bd-mKF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="768.79999999999995" y="-990.85457271364328"/>
+            <point key="canvasLocation" x="957.60000000000002" y="-991.75412293853083"/>
         </scene>
         <!--Deals-->
         <scene sceneID="rtf-bq-FAo">

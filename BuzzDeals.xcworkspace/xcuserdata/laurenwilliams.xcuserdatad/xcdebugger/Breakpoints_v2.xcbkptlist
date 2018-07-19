@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BuzzDeals/Controllers/LoginViewController.swift"
-            timestampString = "553585101.0813529"
+            timestampString = "553717542.095086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "LoginViewController"
             landmarkType = "3">
          </BreakpointContent>

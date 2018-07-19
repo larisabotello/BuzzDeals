@@ -10,7 +10,13 @@ import UIKit
 
 class DeaLImageCell: UITableViewCell {
     
-    ovverride func awakeFromNib() {
+    //Mark: - Subviews
+    
+    @IBOutlet weak var DeaLViewCell: UIView!
+    
+    //Mark: - Cell lifecycle
+    
+    override func awakeFromNib() {
         super.awakeFromNib()
     }
 }
