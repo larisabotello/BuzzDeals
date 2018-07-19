@@ -19,6 +19,7 @@
 		E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* HomeViewController.swift */; };
 		E216649320FF135D00A33CA2 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649220FF135D00A33CA2 /* SearchBarViewController.swift */; };
 		E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649420FF137300A33CA2 /* MySettingsViewController.swift */; };
+		E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23184162100EF1100D6E6DE /* DeaLImageCell.swift */; };
 		E24B837E210017F7007BBDC4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24B837D210017F7007BBDC4 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		E216649020FF133100A33CA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E216649220FF135D00A33CA2 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		E216649420FF137300A33CA2 /* MySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingsViewController.swift; sourceTree = "<group>"; };
+		E23184162100EF1100D6E6DE /* DeaLImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeaLImageCell.swift; sourceTree = "<group>"; };
 		E24B837D210017F7007BBDC4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 		80CF67BA20FD33C200FDEF81 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E23184162100EF1100D6E6DE /* DeaLImageCell.swift */,
 				E208969620FE910A0039D241 /* LoginViewController.swift */,
 				E216649020FF133100A33CA2 /* HomeViewController.swift */,
 				E216649220FF135D00A33CA2 /* SearchBarViewController.swift */,
@@ -309,6 +312,7 @@
 				E208969720FE910A0039D241 /* LoginViewController.swift in Sources */,
 				80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */,
 				E216649320FF135D00A33CA2 /* SearchBarViewController.swift in Sources */,
+				E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */,
 				E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */,
 				E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */,
 			);
