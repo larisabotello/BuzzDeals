@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
     
     //Mark: - Subviews
     
+    @IBOutlet weak var tableView: UITableView!
     
     //Mark - VC Lifecycle
     
