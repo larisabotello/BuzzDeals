@@ -6,6 +6,18 @@
 //  Copyright © 2018 Make School. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HomeViewController: UIViewController {
+    
+    //Mark: - Subviews
+    
+    
+    //Mark - VC Lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
 
 

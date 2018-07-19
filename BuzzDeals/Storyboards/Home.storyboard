@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,11 +14,27 @@
         <!--HomeTab-->
         <scene sceneID="pXS-FR-9cw">
             <objects>
-                <viewController id="Skz-NS-feO" userLabel="HomeTab" sceneMemberID="viewController">
+                <viewController id="Skz-NS-feO" userLabel="HomeTab" customClass="HomeViewController" customModule="BuzzDeals" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wjn-l9-COq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fP8-Gl-UgD">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Skz-NS-feO" id="9Jo-GE-fbq"/>
+                                    <outlet property="delegate" destination="Skz-NS-feO" id="Vaw-n5-QR6"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CBS-6I-dyt" firstAttribute="trailing" secondItem="fP8-Gl-UgD" secondAttribute="trailing" id="FIC-WQ-HYe"/>
+                            <constraint firstItem="fP8-Gl-UgD" firstAttribute="leading" secondItem="CBS-6I-dyt" secondAttribute="leading" id="UJT-PQ-NX0"/>
+                            <constraint firstItem="fP8-Gl-UgD" firstAttribute="top" secondItem="Wjn-l9-COq" secondAttribute="topMargin" id="Vj8-AG-Xqw"/>
+                            <constraint firstItem="CBS-6I-dyt" firstAttribute="bottom" secondItem="fP8-Gl-UgD" secondAttribute="bottom" id="qnw-sO-DXc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="CBS-6I-dyt"/>
                     </view>
                     <navigationItem key="navigationItem" id="dMH-Nk-fs6"/>
