@@ -45,7 +45,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBC-Eq-cDz">
-                                <rect key="frame" x="35" y="551" width="305" height="44"/>
+                                <rect key="frame" x="35" y="535" width="305" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Scj-Bf-jB9"/>
@@ -66,7 +66,7 @@
                             <constraint firstItem="LBC-Eq-cDz" firstAttribute="leading" secondItem="qqZ-er-xoc" secondAttribute="leading" constant="35" id="ccU-qa-6e2"/>
                             <constraint firstItem="hZF-EB-mTf" firstAttribute="top" secondItem="qqZ-er-xoc" secondAttribute="top" id="iuC-re-Wod"/>
                             <constraint firstItem="LBC-Eq-cDz" firstAttribute="centerX" secondItem="hZF-EB-mTf" secondAttribute="centerX" id="jjo-gc-uyC"/>
-                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="top" secondItem="qGZ-QE-gj5" secondAttribute="bottom" constant="-116" id="pgq-0u-Arh"/>
+                            <constraint firstItem="LBC-Eq-cDz" firstAttribute="top" secondItem="qGZ-QE-gj5" secondAttribute="bottom" constant="-132" id="pgq-0u-Arh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qqZ-er-xoc"/>
                     </view>
