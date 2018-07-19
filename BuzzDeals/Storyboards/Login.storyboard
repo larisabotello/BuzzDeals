@@ -44,8 +44,8 @@
                                     <constraint firstItem="A7N-94-bcS" firstAttribute="centerY" secondItem="hZF-EB-mTf" secondAttribute="centerY" constant="-109.5" id="WD5-Ok-d7f"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBC-Eq-cDz">
-                                <rect key="frame" x="35" y="551" width="305" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBC-Eq-cDz">
+                                <rect key="frame" x="35" y="541" width="305" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Scj-Bf-jB9"/>
