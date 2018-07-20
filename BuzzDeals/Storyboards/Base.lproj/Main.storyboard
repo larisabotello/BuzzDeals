@@ -59,7 +59,7 @@
         <scene sceneID="fZg-4i-0zN">
             <objects>
                 <viewControllerPlaceholder storyboardName="Settings" id="P3a-gj-BtZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Nnh-oC-Bov"/>
+                    <tabBarItem key="tabBarItem" title="MySettings" image="tab_profile_black" landscapeImage="tab_profile_black" selectedImage="tab_profile_black" id="Nnh-oC-Bov"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="koP-WL-mlF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,5 +68,6 @@
     </scenes>
     <resources>
         <image name="search_icon" width="25" height="25"/>
+        <image name="tab_profile_black" width="25" height="25"/>
     </resources>
 </document>
