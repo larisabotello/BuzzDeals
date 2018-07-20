@@ -50,6 +50,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s2U-ji-Mbt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Deals" image="tab_home_black" landscapeImage="tab_home_black" largeContentSizeImage="tab_home_black" selectedImage="tab_home_black" id="g17-6a-eKZ"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fFb-aX-SqN">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
