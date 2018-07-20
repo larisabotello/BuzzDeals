@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-            timestampString = "553810961.093827"
+            timestampString = "553815699.276704"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
@@ -26,7 +26,7 @@
                   moduleName = "BuzzDeals"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-                  timestampString = "553810961.11438"
+                  timestampString = "553815699.682952"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,7 +41,7 @@
                   moduleName = "BuzzDeals"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-                  timestampString = "553810961.116787"
+                  timestampString = "553815699.687086"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,12 +56,12 @@
                   moduleName = "BuzzDeals"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-                  timestampString = "553810961.1193531"
+                  timestampString = "553815699.694224"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "305">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -71,7 +71,7 @@
                   moduleName = "BuzzDeals"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-                  timestampString = "553810961.123018"
+                  timestampString = "553815699.697484"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -86,12 +86,12 @@
                   moduleName = "BuzzDeals"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
-                  timestampString = "553810961.135904"
+                  timestampString = "553815699.702914"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "54">
                </Location>
             </Locations>
          </BreakpointContent>
