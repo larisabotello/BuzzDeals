@@ -9,8 +9,10 @@
 import UIKit
 
 class CollectionViewController: UICollectionViewController {
-    
+   
     //Mark: - Properties
+    var names = ["Asia SF", "Catch", "Mel's Drive In San Francisco"]
+    var images = [UIImage(named: "Asia SF.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel's Drive In San Francisco.jpg ")]
     
 
     override func viewDidLoad() {
