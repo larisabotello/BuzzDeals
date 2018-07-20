@@ -16,7 +16,7 @@
 		80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */; };
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
-		E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* HomeViewController.swift */; };
+		E216649120FF133100A33CA2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* CollectionViewController.swift */; };
 		E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649420FF137300A33CA2 /* MySettingsViewController.swift */; };
 		E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23184162100EF1100D6E6DE /* DeaLImageCell.swift */; };
 		E26F34102101688900945A48 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26F340F2101688900945A48 /* Home.storyboard */; };
@@ -36,7 +36,7 @@
 		87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E208969620FE910A0039D241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E216649020FF133100A33CA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E216649020FF133100A33CA2 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		E216649420FF137300A33CA2 /* MySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingsViewController.swift; sourceTree = "<group>"; };
 		E23184162100EF1100D6E6DE /* DeaLImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeaLImageCell.swift; sourceTree = "<group>"; };
 		E26F340F2101688900945A48 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			children = (
 				E23184162100EF1100D6E6DE /* DeaLImageCell.swift */,
 				E208969620FE910A0039D241 /* LoginViewController.swift */,
-				E216649020FF133100A33CA2 /* HomeViewController.swift */,
+				E216649020FF133100A33CA2 /* CollectionViewController.swift */,
 				E216649420FF137300A33CA2 /* MySettingsViewController.swift */,
 				E2C5E5D02101BF92001C0006 /* Display Deal View Controllers.swift */,
 			);
@@ -314,7 +314,7 @@
 				E2C5E5D12101BF92001C0006 /* Display Deal View Controllers.swift in Sources */,
 				E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */,
 				E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */,
-				E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */,
+				E216649120FF133100A33CA2 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
