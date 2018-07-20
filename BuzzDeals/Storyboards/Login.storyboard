@@ -29,7 +29,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuzzDeals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7N-94-bcS">
                                         <rect key="frame" x="26" y="86" width="322" height="57"/>
                                         <fontDescription key="fontDescription" name="FivoSansModern-ExtBlkObliq" family="Fivo Sans Modern" pointSize="60"/>
-                                        <color key="textColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.97364437923011848" green="0.98328442258883253" blue="0.98328442258883253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightning" translatesAutoresizingMaskIntoConstraints="NO" id="zWv-se-otd">

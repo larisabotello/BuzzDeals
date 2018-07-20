@@ -13,8 +13,8 @@ import CoreLocation
 class CollectionViewController: UICollectionViewController, CLLocationManagerDelegate {
    
     //Mark: - Properties
-    var names = ["Asia SF1", "Catch", "Mel's Drive In San Francisco"]
-    var images = [UIImage(named: "AsiaSF1.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel'sDriveInSanFrancisco.jpg ")]
+    var names = ["Asia SF", "Catch", "Mel's Drive In Diner"]
+    var images = [UIImage(named: "AsiaSF1.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel'sDriveInDiner.jpg ")]
     
 
     override func viewDidLoad() {
