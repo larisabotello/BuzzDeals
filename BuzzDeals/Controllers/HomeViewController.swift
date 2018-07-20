@@ -13,8 +13,8 @@ import CoreLocation
 class CollectionViewController: UICollectionViewController, CLLocationManagerDelegate {
    
     //Mark: - Properties
-    var names = ["Asia SF", "Catch", "Mel's Drive In Diner"]
-    var images = [UIImage(named: "AsiaSF1.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel'sDriveInDiner.jpg ")]
+    var names = ["Asia SF", "Catch", "Mel's Drive In"]
+    var images = [UIImage(named: "AsiaSF.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel'sDriveIn.jpg ")]
     
 
     override func viewDidLoad() {
@@ -34,15 +34,16 @@ class CollectionViewController: UICollectionViewController, CLLocationManagerDel
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as UICollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as UICollectionViewCell
         
-        var image = cell.viewWithTag(1) as! UIImageView
+        let image = cell.viewWithTag(1) as! UIImageView
         
         image.image = images[indexPath.row]
         
-        var name = cell.viewWithTag(2) as! UILabel
-        
+        let name = cell.viewWithTag(2) as! UILabel
+    
         name.text = names[indexPath.row]
+        
         return cell
     }
     

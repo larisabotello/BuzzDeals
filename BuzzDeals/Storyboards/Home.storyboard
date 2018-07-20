@@ -33,7 +33,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="182" height="198"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYO-iH-eRM">
+                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Mel'sDriveIn" highlightedImage="btn_heart_red_solid" translatesAutoresizingMaskIntoConstraints="NO" id="bYO-iH-eRM">
                                             <rect key="frame" x="20" y="14" width="142" height="133"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="3sp-9G-zxh"/>
@@ -130,6 +130,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Mel'sDriveIn" width="866" height="866"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
 </document>
