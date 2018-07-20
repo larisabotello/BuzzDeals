@@ -13,7 +13,7 @@
         <!--My Settings-->
         <scene sceneID="urw-Zd-ukg">
             <objects>
-                <viewController id="IGW-Ii-yta" userLabel="My Settings" sceneMemberID="viewController">
+                <viewController id="IGW-Ii-yta" userLabel="My Settings" customClass="MySettingsViewController" customModule="BuzzDeals" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RdA-xg-s5p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,6 +26,11 @@
                                 <state key="normal" title="Sign Out">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="SignOutBtnPressed:" destination="aDX-BM-v7i" eventType="touchUpInside" id="dj3-Nn-LlQ"/>
+                                    <action selector="SignoutBtnPressed:" destination="IGW-Ii-yta" eventType="touchUpInside" id="ani-7o-4Gd"/>
+                                    <action selector="fer:" destination="aDX-BM-v7i" eventType="touchUpInside" id="Jfd-6Z-oeT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,6 +39,7 @@
                     <navigationItem key="navigationItem" id="LC2-09-csC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0PJ-ES-3q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aDX-BM-v7i" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="768.79999999999995" y="399.85007496251876"/>
         </scene>

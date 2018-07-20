@@ -7,21 +7,20 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseAuth
 import FirebaseUI
 
 class MySettingsViewController: UIViewController{
-    
-//    @IBOutlet weak var SignOutBtn: UIButton!
-//
-//    let firebaseAuth = Auth.auth()
-//
-//    @IBAction func SignoutBtnPressed(_ sender: Any) {
-//        print("Signing Out...")
-//        do {
-//            try firebaseAuth.signOut()
-//        } catch let signOutError as NSError {
-//            print ("Error signing out: %@", signOutError)
-//        }
-//    }
+    @IBAction func SignoutBtnPressed(_ sender: UIButton) {
+        print("Signing Out...")
+        do {
+            try Auth.auth().signOut()
+        } catch let error as NSError {
+            assertionFailure("Error signing out: \(error.localizedDescription)")
+        }
+        let loginViewController = UIStoryboard.initialViewController(for: .login)
+        self.view.window?.rootViewController = loginViewController
+        self.view.window?.makeKeyAndVisible()
+    }
 }
