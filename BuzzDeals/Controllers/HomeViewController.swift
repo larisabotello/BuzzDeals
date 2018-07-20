@@ -27,12 +27,20 @@ class CollectionViewController: UICollectionViewController {
     
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return names.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as UICollectionViewCell
+        
+        var image = cell.viewWithTag(1) as! UIImageView
+        
+        image.image = images[indexPath.row]
+        
+        var name = cell.viewWithTag(2) as! UILabel
+        
+        name.text = names[indexPath.row]
         return cell
     }
 }
