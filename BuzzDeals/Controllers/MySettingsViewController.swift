@@ -11,6 +11,7 @@ import FirebaseAuth
 import FirebaseUI
 
 class MySettingsViewController: UIViewController{
+    
 //    @IBOutlet weak var SignOutBtn: UIButton!
 //
 //    let firebaseAuth = Auth.auth()

@@ -17,6 +17,7 @@
 		80E9E523210134E600D59A15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9E522210134E600D59A15 /* Constants.swift */; };
 		80E9E5262101354200D59A15 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9E5252101354200D59A15 /* Storyboard+Utility.swift */; };
 		80E9E529210135C000D59A15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9E528210135C000D59A15 /* User.swift */; };
+		80E9E530210170E900D59A15 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E9E52F210170E900D59A15 /* Settings.storyboard */; };
 		E208969520FE8FE20039D241 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208969420FE8FE20039D241 /* Login.storyboard */; };
 		E208969720FE910A0039D241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208969620FE910A0039D241 /* LoginViewController.swift */; };
 		E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649020FF133100A33CA2 /* HomeViewController.swift */; };
@@ -37,6 +38,7 @@
 		80E9E522210134E600D59A15 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		80E9E5252101354200D59A15 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		80E9E528210135C000D59A15 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80E9E52F210170E900D59A15 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		8221C330E440E16D5E325528 /* Pods-BuzzDeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.debug.xcconfig"; sourceTree = "<group>"; };
 		87DD913A50CB89CBDF61951E /* Pods_BuzzDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E208969420FE8FE20039D241 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		80CF67BC20FD33D000FDEF81 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				80E9E52F210170E900D59A15 /* Settings.storyboard */,
 				E24B837D210017F7007BBDC4 /* Home.storyboard */,
 				80CF67AD20FD2D3100FDEF81 /* LaunchScreen.storyboard */,
 				80CF67A820FD2D2F00FDEF81 /* Main.storyboard */,
@@ -239,6 +242,7 @@
 				E24B837E210017F7007BBDC4 /* Home.storyboard in Resources */,
 				80CF67AF20FD2D3100FDEF81 /* LaunchScreen.storyboard in Resources */,
 				80A92EDA21000A68007A515A /* FivoSansModern-ExtBlack-Oblique.otf in Resources */,
+				80E9E530210170E900D59A15 /* Settings.storyboard in Resources */,
 				80CF67AC20FD2D3100FDEF81 /* Assets.xcassets in Resources */,
 				E208969520FE8FE20039D241 /* Login.storyboard in Resources */,
 				80CF67AA20FD2D2F00FDEF81 /* Main.storyboard in Resources */,
