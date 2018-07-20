@@ -9,9 +9,10 @@
 import UIKit
 import Firebase
 import FirebaseAuth
-import FirebaseUI
+import FirebaseDatabase
 
 class MySettingsViewController: UIViewController{
+    
     @IBAction func SignoutBtnPressed(_ sender: UIButton) {
         print("Signing Out...")
         do {
