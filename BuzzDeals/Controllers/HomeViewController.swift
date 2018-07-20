@@ -13,10 +13,27 @@ import FirebaseAuth
 import FirebaseUI
 import FirebaseDatabase
 
-class HomeViewController: UIViewController{
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     var ref: DatabaseReference!
     var dealsList = [Deals]()
 
+//    //TableView Functions Needed
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return 1//(dealsList.count)
+    }
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        let cell =  tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
+//
+////        cell.dataName.text = "testing"
+////        cell.dataDeal.text = "testing"
+////        cell.dataLocation.text = "testAgain"
+////        cell.dataName.text = dealsList[indexPath.row].name
+////        cell.dataDeal.text = dealsList[indexPath.row].deal
+////        cell.dataLocation.text = dealsList[indexPath.row].location
+
+        return (cell)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,10 +51,11 @@ class HomeViewController: UIViewController{
                     let data = Deals(name: (dealName as! String), location: dealLocation as! String, deal: deals as! String)
                     self.dealsList.append(data)
                 }
-                //tersting data retrieval
+                //testing data retrieval
                 print(self.dealsList[0].deal)
             }
         })
         
     }
+    
 }
