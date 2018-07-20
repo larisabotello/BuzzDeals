@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import CoreLocation
 
-class CollectionViewController: UICollectionViewController {
+
+class CollectionViewController: UICollectionViewController, CLLocationManagerDelegate {
    
     //Mark: - Properties
     var names = ["Asia SF1", "Catch", "Mel's Drive In San Francisco"]
@@ -17,7 +19,7 @@ class CollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
     }
     
     override func didReceiveMemoryWarning() {
