@@ -8,11 +8,9 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UITableViewDelegate {
+class CollectionViewController: UICollectionViewController {
     
     //Mark: - Properties
-    
-    @IBOutlet weak var tableView: UITableView!
     
 
     override func viewDidLoad() {
@@ -24,18 +22,15 @@ class HomeViewController: UIViewController, UITableViewDelegate {
         super.didReceiveMemoryWarning()
         //dispose of any resources that can be recreated
     }
-
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // 1
-        return 10
+    
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
     }
     
-    private func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // 2
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listNotesTableViewCell", for: indexPath)
-        cell.textLabel?.text = "Cell Row: \(indexPath.row) Section: \(indexPath.section)"
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as UICollectionViewCell
         
         return cell
     }
 }
-
