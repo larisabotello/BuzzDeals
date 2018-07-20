@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+            timestampString = "553810961.093827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewControllerTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuzzDeals.ViewControllerTableViewCell.__deallocating_deinit"
+                  moduleName = "BuzzDeals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+                  timestampString = "553810961.11438"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuzzDeals.ViewControllerTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; BuzzDeals.ViewControllerTableViewCell"
+                  moduleName = "BuzzDeals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+                  timestampString = "553810961.116787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuzzDeals.ViewControllerTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; BuzzDeals.ViewControllerTableViewCell"
+                  moduleName = "BuzzDeals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+                  timestampString = "553810961.1193531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "305">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuzzDeals.ViewControllerTableViewCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;BuzzDeals.ViewControllerTableViewCell&gt;"
+                  moduleName = "BuzzDeals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+                  timestampString = "553810961.123018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuzzDeals.ViewControllerTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;BuzzDeals.ViewControllerTableViewCell&gt;"
+                  moduleName = "BuzzDeals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/larisabotello/Desktop/Make/BuzzDeals/BuzzDeals/Controllers/ViewControllerTableViewCell.swift"
+                  timestampString = "553810961.135904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
