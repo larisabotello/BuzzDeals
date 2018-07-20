@@ -20,6 +20,7 @@
 		E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216649420FF137300A33CA2 /* MySettingsViewController.swift */; };
 		E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23184162100EF1100D6E6DE /* DeaLImageCell.swift */; };
 		E26F34102101688900945A48 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26F340F2101688900945A48 /* Home.storyboard */; };
+		E2C5E5D12101BF92001C0006 /* Display Deal View Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5E5D02101BF92001C0006 /* Display Deal View Controllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E216649420FF137300A33CA2 /* MySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingsViewController.swift; sourceTree = "<group>"; };
 		E23184162100EF1100D6E6DE /* DeaLImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeaLImageCell.swift; sourceTree = "<group>"; };
 		E26F340F2101688900945A48 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E2C5E5D02101BF92001C0006 /* Display Deal View Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Display Deal View Controllers.swift"; sourceTree = "<group>"; };
 		F03B27C0A260E41C6D95D16C /* Pods-BuzzDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzDeals/Pods-BuzzDeals.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				E208969620FE910A0039D241 /* LoginViewController.swift */,
 				E216649020FF133100A33CA2 /* HomeViewController.swift */,
 				E216649420FF137300A33CA2 /* MySettingsViewController.swift */,
+				E2C5E5D02101BF92001C0006 /* Display Deal View Controllers.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				E208969720FE910A0039D241 /* LoginViewController.swift in Sources */,
 				80CF67A520FD2D2F00FDEF81 /* AppDelegate.swift in Sources */,
+				E2C5E5D12101BF92001C0006 /* Display Deal View Controllers.swift in Sources */,
 				E23184172100EF1100D6E6DE /* DeaLImageCell.swift in Sources */,
 				E216649520FF137300A33CA2 /* MySettingsViewController.swift in Sources */,
 				E216649120FF133100A33CA2 /* HomeViewController.swift in Sources */,

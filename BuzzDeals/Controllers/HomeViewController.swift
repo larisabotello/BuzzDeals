@@ -43,6 +43,16 @@ class CollectionViewController: UICollectionViewController {
         name.text = names[indexPath.row]
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 1
+        guard let identifier = segue.identifier else { return }
+        
+        // 2
+        if identifier == "displayDescription" {
+            print("Transitioning to the Home View Controller")
+        }
+    }
 }
 
 
