@@ -14,7 +14,7 @@ class CollectionViewController: UICollectionViewController, CLLocationManagerDel
    
     //Mark: - Properties
     var names = ["Asia SF", "Catch", "Mel's Drive In"]
-    var images = [UIImage(named: "AsiaSF.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel'sDriveIn.jpg ")]
+    var images = [UIImage(named: "AsiaSF.jpg "), UIImage(named: "Catch.jpg"), UIImage(named: "Mel's Drive In.jpg ")]
     
 
     override func viewDidLoad() {
